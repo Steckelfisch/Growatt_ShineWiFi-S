@@ -34,6 +34,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install --upgrade intelhex
         pip install --upgrade platformio
+        pip install intelhex
     - name: Prepare config
       run: |
         cp "SRC/ShineWiFi-ModBus/Config.h.example" "SRC/ShineWiFi-ModBus/Config.h"
